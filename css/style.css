@@ -1,0 +1,165 @@
+#Home{
+    width: 100%;
+    height: 660px;
+    background-image: url(../photos/WhatsApp\ Image\ 2023-08-18\ at\ 18.23.58.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    position: relative;
+}
+#Home .mm{
+position: absolute;
+background-color:  rgba(214, 46, 51 , 0.6);
+width: 100%;
+height: 100%;
+}
+#Home h2 , p{
+    color: whitesmoke;
+    text-align: center;
+   
+}
+  #Home  h2{
+    padding-top: 200px;
+    font-size: 60px;
+}   
+.open{
+    height: 100vh;
+    width: 270px;
+    z-index: 10;
+    left: -270px;
+    top: 0;
+    background-color: black;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.open ul i {
+font-size: 35px;
+right: 20px;
+color: white;
+cursor: pointer;
+padding-top: 20px;
+}
+.close{
+    right: 25px;
+    margin-left: 150px;
+
+}
+.open ul li{
+    padding-top: 20px;
+} 
+.open ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    /* padding: 100px 8px 20px 32px; */
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    font-size: 25px;
+    padding-top: 50px;
+}
+.openIcon{
+    right: -115px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    font-size: 35px;
+    cursor: pointer;
+    color: white;
+}
+.acc h3{
+    color: azure;
+    text-transform: uppercase;
+
+}
+
+.acc > div{
+    display: none;
+text-align: justify;
+line-height: 1.7;
+background-color: gray;
+}
+ 
+.time{
+   
+    background-image: url(../photos/invitation-2508607__340.jpg );
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 330px;
+    position: relative;
+  
+}
+ 
+.overlay{
+    position: absolute;
+    background-color: rgba(214, 46, 51 , 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #FFF;
+}
+
+.tim {
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+.contact {
+    margin-top: 100px;
+}
+.contact p{
+    color: #999;
+} 
+.contact .icons{
+    margin-top: 50px;
+}
+.contact i {
+    margin-right: 20px;
+}
+.contact .red {
+    color: red;
+}
+.contact .red i{
+    color: grey;
+}
+.contact .social-list{
+    margin-top: 60px;
+    color: #777;
+} 
+.contact .social-list i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+.contact form textarea , .contact form input{
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+.contact form textarea{
+    height: 200px;
+    resize: vertical;
+    
+}
+.contact form button {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 20px;
+}
